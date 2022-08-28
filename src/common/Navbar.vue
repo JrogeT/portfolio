@@ -1,7 +1,7 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-light">
+  <nav class="navbar navbar-expand-lg bg-dark">
     <div class="container-fluid">
-      <router-link to="/" class="navbar-brand">
+      <router-link to="/" class="navbar-brand text-white">
         <h4>
           Jorge R. Torrez A.
         </h4>
@@ -12,7 +12,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item" v-for="link in links" v-bind:key="link.name">
-            <router-link :to="{path: link.url}" class="nav-link" :class="{active: isInUrl(link.url)}">{{ link.name }}</router-link>
+            <router-link :to="{path: link.url}" class="nav-link text-secondary" :class="{'active text-white': isInUrl(link.url)}">{{ link.name }}</router-link>
           </li>
         </ul>
       </div>

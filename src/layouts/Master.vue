@@ -1,6 +1,14 @@
 <template>
   <Navbar/>
-  <slot/>
+  <div class="bg-light pt-5" style="height: 100vh;">
+    <div class="container bg-white">
+      <div class="row">
+        <div class="col">
+          <slot/>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
