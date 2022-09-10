@@ -17,7 +17,7 @@ import Navbar from '@/common/Navbar.vue'
 export default {
   name: "MasterLayout",
   components: {
-    Navbar
+    Navbar,
   }
 }
 </script>

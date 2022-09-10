@@ -1,7 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 import AboutMe from "@/views/AboutMe";
-import WhatIDo from "@/views/WhatIDo";
-import Experience from "@/views/Experience";
+import WhatIDo from "@/views/Knowledge";
 import ContactMe from "@/views/ContactMe";
 import Cv from "@/views/Cv";
 import SocialNetworks from "@/views/SocialNetworks";
@@ -18,14 +17,9 @@ const routes = [
         component: AboutMe,
     },
     {
-        path: "/what-i-do",
-        name: "WhatIDo",
+        path: "/knowledge",
+        name: "Knowledge",
         component: WhatIDo,
-    },
-    {
-        path: "/experience",
-        name: "Experience",
-        component: Experience,
     },
     {
         path: "/contact-me",

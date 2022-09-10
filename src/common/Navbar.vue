@@ -31,12 +31,8 @@ export default {
           url: "/about-me"
         },
         {
-          name: "What I do",
-          url: "/what-i-do"
-        },
-        {
-          name: "Experience",
-          url: "/experience"
+          name: "Knowledge",
+          url: "/knowledge"
         },
         {
           name: "Contact me",
@@ -60,7 +56,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-
-</style>
