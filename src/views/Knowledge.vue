@@ -45,72 +45,20 @@
 
 <script>
 import AppTechnology from "@/common/Technology.vue";
+import { useTechnologyStore } from "@/store/modules/technology";
+import { mapState } from "pinia";
 
 export default {
   name: "AppKnowledge",
   components: {
-    AppTechnology
+    AppTechnology,
   },
-  data() {
-    return {
-      frontendTechnologies: [
-        {
-          name: 'Bootstrap',
-          image: require('@/assets/icons/bootstrap.png'),
-          knowledgeLevel: 4
-        },
-        {
-          name: 'Angular',
-          image: require('@/assets/icons/angular.png'),
-          knowledgeLevel: 4
-        },
-        {
-          name: 'Vue.js',
-          image: require('@/assets/icons/vue-js.png'),
-          knowledgeLevel: 3.5
-        },
-        {
-          name: 'Html',
-          image: require('@/assets/icons/html.png'),
-          knowledgeLevel: 4
-        },
-      ],
-      backendTechnologies: [
-        {
-          name: '.Net',
-          image: require('@/assets/icons/dotnet-core.png'),
-          knowledgeLevel: 4
-        },
-        {
-          name: 'Node.js',
-          image: require('@/assets/icons/node-js.png'),
-          knowledgeLevel: 3
-        },
-        {
-          name: 'Laravel',
-          image: require('@/assets/icons/laravel.png'),
-          knowledgeLevel: 4
-        },
-      ],
-      webApiTechnologies:[
-        {
-          name: 'REST',
-          image: require('@/assets/icons/rest.png'),
-          knowledgeLevel: 3.5
-        },
-        {
-          name: 'Postman',
-          image: require('@/assets/icons/postman.png'),
-          knowledgeLevel: 4
-        },
-        {
-          name: 'Swagger',
-          image: require('@/assets/icons/swagger.png'),
-          knowledgeLevel: 3
-        },
-      ],
-
-    };
-  }
+  computed: {
+    ...mapState(useTechnologyStore, [
+      "frontendTechnologies",
+      "backendTechnologies",
+      "webApiTechnologies",
+    ]),
+  },
 }
 </script>

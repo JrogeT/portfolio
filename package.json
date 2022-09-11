@@ -14,6 +14,7 @@
     "bootstrap-icons": "^1.9.1",
     "core-js": "^3.8.3",
     "express": "^4.18.1",
+    "pinia": "^2.0.22",
     "serve-static": "^1.15.0",
     "vue": "^3.2.13",
     "vue-router": "^4.0.13"
