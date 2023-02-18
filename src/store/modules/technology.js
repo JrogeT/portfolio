@@ -46,6 +46,12 @@ export const useTechnologyStore = defineStore("technology",{
                 type: 'back-end',
             },
             {
+                name: 'Spring',
+                image: require('@/assets/icons/spring.png'),
+                knowledgeLevel: 2,
+                type: 'back-end',
+            },
+            {
                 name: 'REST',
                 image: require('@/assets/icons/rest.png'),
                 knowledgeLevel: 3.5,
