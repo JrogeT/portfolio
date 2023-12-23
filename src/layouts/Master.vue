@@ -1,7 +1,7 @@
 <template>
   <Navbar/>
   <div class="pt-5">
-    <div class="container bg-white">
+    <div class="container-fluid">
       <div class="row">
         <div class="col">
           <slot/>

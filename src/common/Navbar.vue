@@ -41,10 +41,6 @@ export default {
         {
           name: "CV",
           url: "/cv"
-        },
-        {
-          name: "Social Networks",
-          url: "/social-networks"
         }
       ]
     }
