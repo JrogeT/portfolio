@@ -35,6 +35,10 @@ export default {
           url: "/knowledge"
         },
         {
+          name: "Projects",
+          url: "/projects"
+        },
+        {
           name: "Contact me",
           url: "/contact-me"
         },

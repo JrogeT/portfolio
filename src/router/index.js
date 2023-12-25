@@ -4,6 +4,7 @@ import WhatIDo from "@/views/Knowledge";
 import ContactMe from "@/views/ContactMe";
 import Cv from "@/views/Cv";
 import SocialNetworks from "@/views/SocialNetworks";
+import Projects from "@/views/Projects.vue";
 
 const routes = [
     {
@@ -20,6 +21,11 @@ const routes = [
         path: "/knowledge",
         name: "Knowledge",
         component: WhatIDo,
+    },
+    {
+        path: "/projects",
+        name: "Projects",
+        component: Projects,
     },
     {
         path: "/contact-me",
