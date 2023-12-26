@@ -1,9 +1,9 @@
 <template>
   <div class="container-fluid">
     <div class="row justify-content-center">
-      <div v-for="socialElement in social" :key="socialElement" class="col-lg-3 p-5">
+      <div v-for="socialElement in social" :key="socialElement" class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">
         <div class="p-0 card border-dark rounded-5" style="height: 30rem;" >
-          <img :src="socialElement.image" alt="..." class="card-img-top rounded-5" style="color: black;" width="100%">
+          <img :src="socialElement.image" alt="..." class="card-img-top rounded-5 mx-auto" style="color: black;width: 12rem;height: 12rem;">
           <div class="card-body d-flex flex-wrap flex-column align-items-start justify-content-center">
             <h3 class="card-title w-100 text-center">
               {{ socialElement.name }}

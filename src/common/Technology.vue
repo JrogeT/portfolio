@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid text-center text-warning">
     <div class="row">
-      <img :src="technology.image" class="img-fluid" alt="logo" style="min-height: 9rem;">
+      <img :src="technology.image" class="img-fluid mx-auto" alt="logo" style="width: 11rem;height: 11rem;">
     </div>
     <div class="row">
       <small class="text-dark">{{ technology.name }}</small>

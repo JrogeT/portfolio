@@ -5,6 +5,7 @@ export const useProjectsStore = defineStore("projects",{
         projects: [
             {
                 name: 'Cacheando',
+                description: '',
                 link: 'https://github.com/jroget/cacheando',
                 image: require('@/assets/images/projects/cacheando/main.png'),
                 date: 'In progress',
@@ -22,7 +23,7 @@ export const useProjectsStore = defineStore("projects",{
                 date: '04-05-2021',
             },
             {
-                name: 'Consultation Forum (3Layers)',
+                name: 'Consultation Forum',
                 link: 'https://github.com/jroge-uagrm/consultation-forum-3layers',
                 image: require('@/assets/images/projects/consultation-forum/login.png'),
                 date: '01-23-2021',

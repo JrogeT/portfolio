@@ -36,7 +36,7 @@ export const useTechnologyStore = defineStore("technology",{
             {
                 name: 'Node.js',
                 image: require('@/assets/images/technologies/node-js.png'),
-                knowledgeLevel: 3,
+                knowledgeLevel: 3.5,
                 type: 'back-end',
             },
             {
@@ -48,13 +48,13 @@ export const useTechnologyStore = defineStore("technology",{
             {
                 name: 'Spring',
                 image: require('@/assets/images/technologies/spring.png'),
-                knowledgeLevel: 2,
+                knowledgeLevel: 3,
                 type: 'back-end',
             },
             {
                 name: 'REST',
                 image: require('@/assets/images/technologies/rest.png'),
-                knowledgeLevel: 3.5,
+                knowledgeLevel: 4,
                 type: 'web-api',
             },
             {

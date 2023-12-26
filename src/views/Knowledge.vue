@@ -22,7 +22,7 @@
           Frontend
         </h5>
         <div class="row mb-5">
-          <div class="col-md-2 mx-4" v-for="technology in frontendTechnologies" :key="technology">
+          <div class="col-6 col-md-3 mx-auto" v-for="technology in frontendTechnologies" :key="technology">
             <AppTechnology :technology="technology" />
           </div>
         </div>
@@ -30,7 +30,7 @@
           Backend
         </h5>
         <div class="row mb-5">
-          <div class="col-md-2 mx-4" v-for="technology in backendTechnologies" :key="technology">
+          <div class="col-6 col-md-3 mx-auto" v-for="technology in backendTechnologies" :key="technology">
             <AppTechnology :technology="technology" />
           </div>
         </div>
@@ -38,7 +38,7 @@
           Web APIs
         </h5>
         <div class="row mb-5">
-          <div class="col-md-2 mx-4" v-for="technology in webApiTechnologies" :key="technology">
+          <div class="col-6 col-md-3 mx-auto" v-for="technology in webApiTechnologies" :key="technology">
             <AppTechnology :technology="technology" />
           </div>
         </div>
