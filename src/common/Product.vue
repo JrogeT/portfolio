@@ -8,13 +8,12 @@
       <label class="mt-0 w-100 text-center fst-italic">
         Bs. {{ formatPrice(product.price) }}
       </label>
-      <p class="card-text my-auto">
+      <p class="card-text my-auto mt-2">
         {{ product.description ?? 'Github Repository' }}
       </p>
-      <div class="row mt-auto mx-auto">
-        <a :href="product.link" target="_blank" class="btn btn-outline-dark mx-auto">
-          Go to
-        </a>
+      <div class="row flex-column">
+        References:
+        <span class="badge badge-primary">Primary</span>
       </div>
     </div>
   </div>
