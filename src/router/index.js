@@ -5,6 +5,7 @@ import ContactMe from "@/views/ContactMe";
 import Cv from "@/views/Cv";
 import SocialNetworks from "@/views/SocialNetworks";
 import Projects from "@/views/Projects.vue";
+import GarageSale from "@/views/GarageSale.vue";
 
 const routes = [
     {
@@ -41,6 +42,11 @@ const routes = [
         path: "/social-networks",
         name: "SocialNetworks",
         component: SocialNetworks,
+    },
+    {
+        path: "/garage-sale",
+        name: "GarageSale",
+        component: GarageSale,
     }
 ];
 
