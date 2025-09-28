@@ -5,15 +5,22 @@
       <h3 class="card-title w-100 text-center">
         {{ product.name }}
       </h3>
-      <label class="mt-0 w-100 text-center fst-italic">
+      <div>
+        <span class="fw-bold">Precio: </span>
         Bs. {{ formatPrice(product.price) }}
-      </label>
-      <p class="card-text my-auto mt-2">
-        {{ product.description ?? 'Github Repository' }}
-      </p>
-      <div class="row flex-column">
-        References:
-        <span class="badge badge-primary">Primary</span>
+      </div>
+      <div>
+        <span class="fw-bold">Tiempo de uso: </span>
+        {{ product.usageTime }}
+      </div>
+      <div class="mt-2">
+        <span class="fw-bold">Referencias: </span>
+        <a v-for="link in product.links" :href="link.url" target="_blank" class="text-decoration-none mx-1" :key="link.name">
+          <span class="badge rounded-pill" :class="link.class">
+            {{ link.name }}
+            <i class="bi bi-box-arrow-up-right"></i>
+          </span>
+        </a>
       </div>
     </div>
   </div>
