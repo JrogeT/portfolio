@@ -39,24 +39,6 @@ const createMulticenterLink = (url, price) => {
     }
 }
 
-const createGenioLink = (url, price) => {
-    return {
-        name: 'El Genio X',
-        class: 'bg-primary text-white',
-        price,
-        url,
-    }
-}
-
-const createFulltecLink = (url, price) => {
-    return {
-        name: 'Fulltec',
-        class: 'bg-success text-white',
-        price,
-        url,
-    }
-}
-
 const createUbuyLink = (url, price) => {
     return {
         name: 'Ubuy',
@@ -89,14 +71,14 @@ export const useGarageSaleStore = defineStore("products",{
                         7299,
                     ),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/living/TV.jpg')
             ),
             createProduct(
                 'Estanteria',
                 living,
                 750,
                 [],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/living/estanteria.jpg')
             ),
             createProduct(
                 'Mueble para TV',
@@ -108,27 +90,27 @@ export const useGarageSaleStore = defineStore("products",{
                         2999
                     )
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/living/mueble-para-TV.jpg')
             ),
             createProduct(
                 'Escritorio',
                 living,
                 1200,
                 [],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/living/escritorio.jpg')
             ),
-            createProduct(
-                'Silla Giratoria de oficina',
-                living,
-                800,
-                [
-                    createDismacLink(
-                        'https://www.dismac.com.bo/silla-ejecutiva-kenzoaj-004.html',
-                        2099
-                    )
-                ],
-                require('@/assets/images/products/TV.jpeg')
-            ),
+            // createProduct(
+            //     'Silla Giratoria de oficina',
+            //     living,
+            //     800,
+            //     [
+            //         createDismacLink(
+            //             'https://www.dismac.com.bo/silla-ejecutiva-kenzoaj-004.html',
+            //             2099
+            //         )
+            //     ],
+            //     require('@/assets/images/products/TV.jpeg')
+            // ),
             createProduct(
                 'Mesa comedor con 4 sillas',
                 living,
@@ -136,13 +118,13 @@ export const useGarageSaleStore = defineStore("products",{
                 [],
                 require('@/assets/images/products/TV.jpeg')
             ),
-            createProduct(
-                'Sofa Cama',
-                living,
-                2000,
-                [],
-                require('@/assets/images/products/TV.jpeg')
-            ),
+            // createProduct(
+            //     'Sofa Cama',
+            //     living,
+            //     2000,
+            //     [],
+            //     require('@/assets/images/products/TV.jpeg')
+            // ),
             createProduct(
                 'Radiador Magefesa 11 elementos',
                 living,

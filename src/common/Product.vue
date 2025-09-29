@@ -1,6 +1,6 @@
 <template>
-  <div class="p-0 card border-dark rounded-5" style="height: 30rem;" >
-    <img :src="product.image" alt="..." class="card-img-top rounded-5 mx-auto" style="width: 100%; height: 20rem;">
+  <div class="p-0 card border-dark rounded-5" style="height: 35rem;" >
+    <img :src="product.image" alt="..." class="card-img-top rounded-5 mx-auto product-cover" onclick="this.style.transform='scale(1.05)'; this.style.transition='transform 0.3s'; setTimeout(() => { this.style.transform='scale(1)'; }, 300);">
     <div class="card-body d-flex flex-wrap flex-column align-items-start justify-content-center">
       <h3 class="card-title w-100 text-center">
         {{ product.name }}
@@ -30,6 +30,18 @@
     </div>
   </div>
 </template>
+
+<style>
+.product-cover {
+  width: 100%;
+  height: 20rem;        /* same for all cards */
+  object-fit: cover;    /* fill & crop uniformly */
+  object-position: center;
+  display: block;       /* removes inline-image baseline gap */
+  border-top-left-radius: var(--bs-border-radius-xxl);
+  border-top-right-radius: var(--bs-border-radius-xxl);
+}
+</style>
 
 <script>
 export default {

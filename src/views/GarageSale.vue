@@ -45,7 +45,6 @@
 
 <script>
 import {useGarageSaleStore} from "@/store/modules/garageSale";
-import { mapState } from "pinia";
 import AppProduct from "@/common/Product.vue";
 
 export default {
