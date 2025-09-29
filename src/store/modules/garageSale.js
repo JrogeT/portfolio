@@ -116,7 +116,7 @@ export const useGarageSaleStore = defineStore("products",{
                 living,
                 2500,
                 [],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/living/comedor.jpg')
             ),
             // createProduct(
             //     'Sofa Cama',
@@ -135,7 +135,7 @@ export const useGarageSaleStore = defineStore("products",{
                         1129
                     )
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/living/radiador.jpg')
             ),
             // ——— Limpieza ———
             createProduct(
@@ -152,7 +152,7 @@ export const useGarageSaleStore = defineStore("products",{
                         10500
                     ),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/limpieza/xiaomi-x20plus.jpg')
             ),
             // append these to your `products` array:
             createProduct(
@@ -160,116 +160,123 @@ export const useGarageSaleStore = defineStore("products",{
                 limpieza,
                 2500,
                 [createGenericLink('https://www.instagram.com/p/DNHCvvxsoW2/', 2899)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/limpieza/xiaomi-e10c.jpg')
             ),
             createProduct(
-                'Aspiradora Bosch Fexxo Serie 4 25.2V',
+                'Aspiradora Bosch Flexxo Serie4',
                 limpieza,
-                null,
+                4500,
                 [
-                    createGenericLink('https://www.bosch-home.es/es/product/aspiradoras/sin-cable/flexxo/BBH3ZOO25', null),
-                    createGenericLink('https://degentek.com/producto/aspirador-escoba-sin-cable/', null),
-                    createGenericLink('https://www.kyeroo.com/aspiradora-sin-cable-bosch-flexxo-serie-4-25-2v-proanimal-bbh3zoo25', null),
-                    createGenericLink('https://tecnoduero.com/tienda/aspiracion/aspiradora-escoba/aspirador-vertical-flexooo-zoo-de-25-2v-55min-bbh3zoo25/', null),
-                    createGenericLink('https://www.multicenter.com/aspirador-escoba-sin-cables-bbh3zoo28-bosch/p', null),
+                    createGenericLink('https://degentek.com/producto/aspirador-escoba-sin-cable/', 5769),
+                    createMulticenterLink('https://www.multicenter.com/aspirador-escoba-sin-cables-bbh3zoo28-bosch/p', 5589),
+                    createGenericLink('https://abdiaslopez.odoo.com/shop/i-21759-aspiradora-escoba-bosch-sin-cable-28v-recargable-p-bbh3zoo28-40182#attr=', 5589)
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/limpieza/bosch-flexxo.jpg')
             ),
 
             // ——— Entretenimiento ———
-            createProduct('Ajedrez con reloj', entretenimiento, 250, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Ajedrez para viajes', entretenimiento, 50, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Juegos de mesa', entretenimiento, null, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Cubo de Rubik GAN356 Maglev', entretenimiento, null, [], require('@/assets/images/products/TV.jpeg')),
+            createProduct('Ajedrez con reloj', entretenimiento, 250, [], require('@/assets/images/products/entretenimiento/ajedres-plus-reloj.jpg')),
+            createProduct('Ajedrez para viajes', entretenimiento, 50, [], require('@/assets/images/products/entretenimiento/mini-ajedrez.jpg')),
+            createProduct('Juegos de mesa grandes', entretenimiento, 200, [], require('@/assets/images/products/entretenimiento/juegos-de-mesa-grandes.jpg')),
+            createProduct('Juegos de mesa pequeños', entretenimiento, 100, [], require('@/assets/images/products/entretenimiento/juegos-de-mesa-peque.jpg')),
+            createProduct(
+                'Nintendo Switch',
+                entretenimiento,
+                6000,
+                [createDismacLink('https://www.dismac.com.bo/consola-nintendo-switch-oled-white-juego-mario-kart-8hrg-s-kaa1b.html', 6999)],
+                require('@/assets/images/products/entretenimiento/nintendo-switch.jpg')
+            ),
+            createProduct(
+                'Nintendo Pro Controller',
+                entretenimiento,
+                800,
+                [
+                    createDismacLink('https://www.dismac.com.bo/mando-nintendo-switch-pro-controller-de-32gbhacafsska.html', 999),
+                    createUbuyLink('https://www.ubuy.com.bo/es/product/G7XG1A0D8-nintendo-switch-pro-controller-elevate-your-gaming-experience-with-precision', 918),
+                ],
+                require('@/assets/images/products/entretenimiento/nintendo-pro-controller.jpg')
+            ),
+            createProduct('Colección cubos de rubik', entretenimiento, 200, [], require('@/assets/images/products/entretenimiento/coleccion-cubos-rubik.jpg')),
+            createProduct('Catan + 2 expansiones', entretenimiento, 300, [], require('@/assets/images/products/entretenimiento/catan.jpg')),
+
+
+
+
+
+
+
 
             // ——— Tecnología ———
             createProduct(
                 'JBL Flip 6',
                 tecnologia,
-                1500,
+                1600,
                 [
-                    createDismacLink('https://www.dismac.com.bo/altavoz-portatil-jbl-flip-6-verdejbl-flip6-teal.html', 1699),
+                    createDismacLink('https://www.dismac.com.bo/altavoz-portatil-jbl-flip-6-verdejbl-flip6-teal.html', 2419),
                     createGenericLink('https://hauscenter.com.bo/producto/parlante-jbl-flip-6-color-negro', 1699),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/tech/jbl-flip-6.jpg')
             ),
             createProduct(
                 'Google Nest Mini 2da Gen',
                 tecnologia,
                 400,
                 [
-                    createGenericLink('https://www.novex.com.bo/product/google-nest-mini-2da-generacion/', 309),
-                    createGenericLink('https://tecnocomprasbolivia.com/products/google-nest-mini', 339),
+                    // createGenericLink('https://www.novex.com.bo/product/google-nest-mini-2da-generacion/', 309),
+                    // createGenericLink('https://tecnocomprasbolivia.com/products/google-nest-mini', 339),
                     createGenericLink('https://www.boliviamart.com/google-home-mini-asistente-personal/', 613),
                 ],
-                require('@/assets/images/products/TV.jpeg')
-            ),
-            createProduct(
-                'Nintendo Switch',
-                tecnologia,
-                5000,
-                [createDismacLink('https://www.dismac.com.bo/consola-nintendo-switch-oled-white-juego-mario-kart-8hrg-s-kaa1b.html', 6999)],
-                require('@/assets/images/products/TV.jpeg')
-            ),
-            createProduct(
-                'Nintendo Pro Controller',
-                tecnologia,
-                800,
-                [
-                    createDismacLink('https://www.dismac.com.bo/mando-nintendo-switch-pro-controller-de-32gbhacafsska.html', 999),
-                    createUbuyLink('https://www.ubuy.com.bo/es/product/G7XG1A0D8-nintendo-switch-pro-controller-elevate-your-gaming-experience-with-precision', 918),
-                ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/tech/google-nest-mini.jpg')
             ),
             createProduct(
                 'Xiaomi Smart Plug 2',
                 tecnologia,
                 150,
                 [createGenericLink('https://tecnocomprasbolivia.com/products/enchufe-inteligente-xiaomi?_pos=1&_sid=b307fdabf&_ss=r', 179)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/tech/smart-plug.jpg')
             ),
             createProduct(
                 'Redragon Panda Crystal Switch (A113 HP2)',
                 tecnologia,
                 150,
                 [createGenericLink('https://overcitybolivia.com/shop-single.php?dato1=352', 180)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/tech/crystal-switches.jpg')
             ),
             createProduct(
                 'Samsung Galaxy Watch 6 classic 43mm',
                 tecnologia,
-                4500,
+                5000,
                 [
                     createGenericLink('https://shop.samsung.com.bo/watches/galaxy-watch/galaxy-watch6-classic-43mm-silver-bluetooth-sm-r950nzsalta/', 6063),
                     createGenericLink('https://shoptic.com.bo/product/samsung-galaxy-watch-6/', 5490),
                     createGenericLink('https://nextlevel.com.bo/collections/wearables/products/watch6-classic-43mm-sku-sm-r950nzkalta', 6714),
-                    createGenericLink('https://onstorebo.com/product/samsung-watch6-classic-43mm-bt/', 5371),
+                    // createGenericLink('https://onstorebo.com/product/samsung-watch6-classic-43mm-bt/', 5371),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/tech/galaxy-watch-6.jpg')
             ),
-            createProduct(
-                'Headset Klip KNH-050',
-                tecnologia,
-                null,
-                [
-                    createGenericLink('https://tiendas.camsa.com.bo/product/audifonos-inalambricos-anc-2', null),
-                    createGenericLink('https://digitallifecr.com/products/auriculares-knh-050bk-marca-klipxtreme', null),
-                    createGenericLink('https://www.tecnogamer.com.bo/producto/audifono-klipxtreme-oasis-knh-050wh/', null),
-                    createGenericLink('https://comcellstore.com/?product=klip-xtreme-knh-050-oasis', null),
-                ],
-                require('@/assets/images/products/TV.jpeg')
-            ),
+            // createProduct(
+            //     'Headset Klip KNH-050',
+            //     tecnologia,
+            //     null,
+            //     [
+            //         createGenericLink('https://tiendas.camsa.com.bo/product/audifonos-inalambricos-anc-2', null),
+            //         createGenericLink('https://digitallifecr.com/products/auriculares-knh-050bk-marca-klipxtreme', null),
+            //         createGenericLink('https://www.tecnogamer.com.bo/producto/audifono-klipxtreme-oasis-knh-050wh/', null),
+            //         createGenericLink('https://comcellstore.com/?product=klip-xtreme-knh-050-oasis', null),
+            //     ],
+            //     require('@/assets/images/products/TV.jpeg')
+            // ),
             createProduct(
                 'Chromecast 3ra Gen',
                 tecnologia,
                 300,
                 [
-                    createGenericLink('https://bitstorebolivia.com/producto/google-chromecast-3-gen/', 260),
+                    // createGenericLink('https://bitstorebolivia.com/producto/google-chromecast-3-gen/', 260),
                     createGenericLink('https://bestone.com.bo/google-chromecast-3ra-generacion/?v=ad7532d5b386', 494),
                     createUbuyLink('https://www.ubuy.com.bo/es/product/QJ078LQYA-google-chromecast-3rd-gen', 385),
                     createUbuyLink('https://www.ubuy.com.bo/es/product/860N5YF0W-google-chromecast-streaming-device-with-hdmi-cable-cast-shows-music-photos-netflix-youtube-prime-video-disney-and-more-model-ga00439-us', 909),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/tech/chromecast-3.jpg')
             ),
             createProduct(
                 'Chromecast 4ta Gen',
@@ -279,7 +286,7 @@ export const useGarageSaleStore = defineStore("products",{
                     createGenericLink('https://tecnocomprasbolivia.com/products/google-chromecast-4?_pos=3&_sid=3a271b481&_ss=r', 640),
                     createUbuyLink('https://www.ubuy.com.bo/es/product/I821E2EPI-google-chromecast-hd-with-google-tv-hd-snow-new-sealed', 647),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/tech/chromecast-4.jpg')
             ),
 
             // ——— Mascotas ———
@@ -296,17 +303,17 @@ export const useGarageSaleStore = defineStore("products",{
                 ],
                 require('@/assets/images/products/TV.jpeg')
             ),
-            createProduct(
-                'Bicicleta Monarette 27.5\'\'',
-                deporte,
-                2100,
-                [
-                    createGenericLink('https://www.tiendaamiga.com.bo/bicicleta-monark-scorpion-aro-27-5-color-negro-cod-571191931', 2429),
-                    createDismacLink('https://www.dismac.com.bo/bicicleta-monarette-scorpion-aro-27-5-rojo.html', 1739),
-                    createGenericLink('https://www.camsa.com.bo/product/bicicleta-monarette-monark-scorpion-aro-275-gris', 1739),
-                ],
-                require('@/assets/images/products/TV.jpeg')
-            ),
+            // createProduct(
+            //     'Bicicleta Monarette 27.5\'\'',
+            //     deporte,
+            //     2100,
+            //     [
+            //         createGenericLink('https://www.tiendaamiga.com.bo/bicicleta-monark-scorpion-aro-27-5-color-negro-cod-571191931', 2429),
+            //         createDismacLink('https://www.dismac.com.bo/bicicleta-monarette-scorpion-aro-27-5-rojo.html', 1739),
+            //         createGenericLink('https://www.camsa.com.bo/product/bicicleta-monarette-monark-scorpion-aro-275-gris', 1739),
+            //     ],
+            //     require('@/assets/images/products/TV.jpeg')
+            // ),
             createProduct('Parches + Inflador para bicicleta', deporte, 150, [], require('@/assets/images/products/TV.jpeg')),
             createProduct(
                 'Set de mancuernas metálicas',
@@ -326,7 +333,7 @@ export const useGarageSaleStore = defineStore("products",{
                 require('@/assets/images/products/TV.jpeg')
             ),
             createProduct('Tienda de Acampar Lombardi', deporte, 300, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Sleeping bag Nautika Viper', deporte, null, [], require('@/assets/images/products/TV.jpeg')),
+            // createProduct('Sleeping bag Nautika Viper', deporte, null, [], require('@/assets/images/products/TV.jpeg')),
             createProduct(
                 'Maleta de viaje Caterpillar',
                 deporte,
@@ -365,7 +372,6 @@ export const useGarageSaleStore = defineStore("products",{
                 [createGenericLink('https://materiales.com.bo/products/sabonis-repuesto-para-marcador-de-pizarra-sabonis-marcadores-para-pizarra', null)],
                 require('@/assets/images/products/TV.jpeg')
             ),
-            createProduct('Colección cubos de rubik', educacion, 200, [], require('@/assets/images/products/TV.jpeg')),
             createProduct('Libros Julio Verne', educacion, 200, [], require('@/assets/images/products/TV.jpeg')),
             createProduct(
                 'Batería Acústica',
