@@ -11,7 +11,7 @@ const routes = [
     {
         path: "/",
         name: "Home",
-        component: AboutMe,
+        component: GarageSale,
     },
     {
         path: "/about-me",

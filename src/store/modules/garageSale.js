@@ -6,7 +6,7 @@ const entretenimiento = 'entretenimiento'
 const tecnologia = 'tecnologia'
 const mascotas = 'mascotas'
 const deporte = 'deporte'
-const educacion = 'educacion'
+// const educacion = 'educacion'
 const cocina = 'cocina'
 const otros = 'otros'
 const herramientas = 'herramientas'
@@ -141,7 +141,7 @@ export const useGarageSaleStore = defineStore("products",{
             createProduct(
                 'Xiaomi Aspiradora X20+',
                 limpieza,
-                8500,
+                9000,
                 [
                     createUbuyLink(
                         'https://www.ubuy.com.bo/es/product/QJBWVVADK-6941812777206-xiaomi-robot-vacuum-x20-max-eu-xiaomi',
@@ -165,7 +165,7 @@ export const useGarageSaleStore = defineStore("products",{
             createProduct(
                 'Aspiradora Bosch Flexxo Serie4',
                 limpieza,
-                4500,
+                5000,
                 [
                     createGenericLink('https://degentek.com/producto/aspirador-escoba-sin-cable/', 5769),
                     createMulticenterLink('https://www.multicenter.com/aspirador-escoba-sin-cables-bbh3zoo28-bosch/p', 5589),
@@ -352,7 +352,7 @@ export const useGarageSaleStore = defineStore("products",{
                 require('@/assets/images/products/deporte/totto-bag.jpg')
             ),
             createProduct('Pelotas de padel (3)', deporte, 50, [], require('@/assets/images/products/deporte/padel-balls.jpg')),
-            createProduct('Red portátil de badminton', deporte, 100, [], require('@/assets/images/products/deporte/badminton-net.jpg')),
+            createProduct('Red portátil de badminton', deporte, 150, [], require('@/assets/images/products/deporte/badminton-net.jpg')),
             createProduct(
                 'Xiaomi body composition S400',
                 deporte,
@@ -439,21 +439,21 @@ export const useGarageSaleStore = defineStore("products",{
             ),
 
             // ——— Otros ———
-            createProduct('Reloj de bolsillo Harry Potter', otros, 100, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Cojín de viaje para cuello', otros, null, [], require('@/assets/images/products/TV.jpeg')),
+            // createProduct('Reloj de bolsillo Harry Potter', otros, 100, [], require('@/assets/images/products/TV.jpeg')),
+            // createProduct('Cojín de viaje para cuello', otros, null, [], require('@/assets/images/products/TV.jpeg')),
             createProduct(
                 'Colchón 1 plaza y media',
                 otros,
                 2399,
                 [createDismacLink('https://www.dismac.com.bo/colchon-toborochi-linea-suavex-105x190x26-cm-1-5-plazaspp5233.html', 2399)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/otros/colchon.jpg')
             ),
             createProduct(
                 'Somier',
                 otros,
                 899,
                 [createDismacLink('https://www.dismac.com.bo/somier-de-tela-gris-1-5-plazas-sonarepp8896.html', 899)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/otros/somier.jpg')
             ),
             createProduct(
                 'Velador',
@@ -464,9 +464,9 @@ export const useGarageSaleStore = defineStore("products",{
                     createDismacLink('https://www.dismac.com.bo/velador-izzi-muebles-ceres-m3-color-adobe-x-marfilpp8942.html', 459),
                     createMulticenterLink('https://www.multicenter.com/mesa-de-noche-2-cajones-amendoia-blanco-isis/p', 429),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/otros/velador.jpg')
             ),
-            createProduct('Brújula Militar', otros, 100, [], require('@/assets/images/products/TV.jpeg')),
+            // createProduct('Brújula Militar', otros, 100, [], require('@/assets/images/products/TV.jpeg')),
 
             // ——— Herramientas ———
             createProduct(
@@ -474,14 +474,14 @@ export const useGarageSaleStore = defineStore("products",{
                 herramientas,
                 300,
                 [createDismacLink('https://www.dismac.com.bo/atornillador-inalambrico-tramontina-3-6v-maletin42380-045.html', 319)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/herramientas/atornillador.jpg')
             ),
             createProduct(
                 'Taladro Bosch GSB 550RE',
                 herramientas,
                 1000,
                 [createGenericLink('https://www.hi.com.bo/taladro-con-percusion-gsb-550re-bosch.html', 1106)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/herramientas/taladro.jpg')
             ),
 
         ]

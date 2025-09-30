@@ -8,10 +8,10 @@
           </strong>
         </h3>
         <p>
-          Hello There, I'm Jorge - Bolivian - 25 years old
+          Hello There, I'm Jorge - Bolivian - 26 years old
         </p>
         <p>
-          Aura, Tyson, Flor, Tita and Sasha are my cats, they are so cute, I love them.
+          Aura, Akira, Flor, Tita and Sasha are my cats, they are so cute, I love them.
         </p>
         <h3>
           <strong>
@@ -44,11 +44,11 @@
           </strong>
         </h3>
         <p>
-          I'm a big fan of sports, my whole weekends are spent playing wallyball, cycling, squash and padel.
+          I'm a big fan of sports, my whole weekends are spent playing wallyball, cycling, squash and any other!
         </p>
-        <p>
-          I'm in a Volleyball Team called 'Molten De La Sierra' where I'm challenged to get better everyday.
-        </p>
+<!--        <p>-->
+<!--          I'm in a Volleyball Team called 'Molten De La Sierra' where I'm challenged to get better everyday.-->
+<!--        </p>-->
         <p>
           Rubik's cube is my favorite puzzle game, I also play chess online.
         </p>
