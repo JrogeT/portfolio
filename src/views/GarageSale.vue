@@ -18,7 +18,7 @@
               <option value="tecnologia">Tecnologia</option>
               <option value="mascotas">Mascotas</option>
               <option value="deporte">Deporte</option>
-              <option value="educacion">Educacion</option>
+<!--              <option value="educacion">Educacion</option>-->
               <option value="cocina">Cocina</option>
               <option value="herramientas">Herramientas</option>
               <option value="otros">Otros</option>

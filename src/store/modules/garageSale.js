@@ -290,7 +290,7 @@ export const useGarageSaleStore = defineStore("products",{
             ),
 
             // ——— Mascotas ———
-            createProduct('Dispensador de comida para mascotas', mascotas, 300, [], require('@/assets/images/products/TV.jpeg')),
+            createProduct('Dispensador de comida para mascotas', mascotas, 300, [], require('@/assets/images/products/mascotas/dispensador.jpg')),
 
             // ——— Deporte ———
             createProduct(
@@ -301,7 +301,7 @@ export const useGarageSaleStore = defineStore("products",{
                     createGenericLink('https://www.facebook.com/marketplace/item/838352767610636/', 560),
                     createUbuyLink('https://www.ubuy.com.bo/es/product/JAUKEN6VY-mikasa-v200w-volleyball', 807),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/deporte/volley-ball.jpg')
             ),
             // createProduct(
             //     'Bicicleta Monarette 27.5\'\'',
@@ -314,7 +314,7 @@ export const useGarageSaleStore = defineStore("products",{
             //     ],
             //     require('@/assets/images/products/TV.jpeg')
             // ),
-            createProduct('Parches + Inflador para bicicleta', deporte, 150, [], require('@/assets/images/products/TV.jpeg')),
+            createProduct('Parches + Inflador para bicicleta', deporte, 150, [], require('@/assets/images/products/deporte/bike-patches.jpg')),
             createProduct(
                 'Set de mancuernas metálicas',
                 deporte,
@@ -323,23 +323,23 @@ export const useGarageSaleStore = defineStore("products",{
                     createGenericLink('https://www.construex.com.bo/exhibidores/gym_en_casa/producto/mancuernas_ajustables', 1700),
                     createUbuyLink('https://www.ubuy.com.bo/es/product/JF59W2V5C-adjustable-dumbbell-set-with-3-in-1-dumbbell-barbell-metal-connecting-rod-chromed-weights-hardcover-gift-box-adjustable-weight-sets-up-to', 2635),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/deporte/dumbbels.jpg')
             ),
             createProduct(
                 'Bolso Puma',
                 deporte,
                 500,
                 [createGenericLink('https://www.fairplay.com.bo/puma-bolso-training-sportsbag-s-078852-01/p', 549)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/deporte/puma-bag.jpg')
             ),
-            createProduct('Tienda de Acampar Lombardi', deporte, 300, [], require('@/assets/images/products/TV.jpeg')),
+            createProduct('Tienda de Acampar Lombardi', deporte, 300, [], require('@/assets/images/products/deporte/camping.jpg')),
             // createProduct('Sleeping bag Nautika Viper', deporte, null, [], require('@/assets/images/products/TV.jpeg')),
             createProduct(
                 'Maleta de viaje Caterpillar',
                 deporte,
                 2000,
                 [createGenericLink('https://www.impulse.bo/maleta-hombre-industrial-plate-28-black.html', 2299)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/deporte/cat-suitcase.jpg')
             ),
             createProduct(
                 'Mochila camping Summit 67 Totto',
@@ -349,10 +349,10 @@ export const useGarageSaleStore = defineStore("products",{
                     createGenericLink('https://bo.totto.com/viaje/maletas/outdoor', 1439),
                     createDismacLink('https://www.dismac.com.bo/morral-summit-67-a03-t-l.html', 1439),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/deporte/totto-bag.jpg')
             ),
-            createProduct('Pelotas de padel (3)', deporte, 50, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Red portátil de badminton', deporte, 100, [], require('@/assets/images/products/TV.jpeg')),
+            createProduct('Pelotas de padel (3)', deporte, 50, [], require('@/assets/images/products/deporte/padel-balls.jpg')),
+            createProduct('Red portátil de badminton', deporte, 100, [], require('@/assets/images/products/deporte/badminton-net.jpg')),
             createProduct(
                 'Xiaomi body composition S400',
                 deporte,
@@ -361,25 +361,30 @@ export const useGarageSaleStore = defineStore("products",{
                     createGenericLink('https://sofmat.com.bo/productos/mi-body-composition-scale-2/', 457),
                     createGenericLink('https://www.tecnoshoppingbolivia.com/producto/bascula-xiaomi-body-composition-scale-s400/', 415),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/deporte/xiaomi-vascula.jpg')
             ),
 
             // ——— Educación ———
-            createProduct(
-                'Marcadores de pizarra',
-                educacion,
-                150,
-                [createGenericLink('https://materiales.com.bo/products/sabonis-repuesto-para-marcador-de-pizarra-sabonis-marcadores-para-pizarra', null)],
-                require('@/assets/images/products/TV.jpeg')
-            ),
-            createProduct('Libros Julio Verne', educacion, 200, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct(
-                'Batería Acústica',
-                educacion,
-                null,
-                [createDismacLink('https://www.dismac.com.bo/bateria-acustica-mapex-serie-prodigi-color-royal-blue-set-completopdg5294ftcyb.html', null)],
-                require('@/assets/images/products/TV.jpeg')
-            ),
+            // createProduct(
+            //     'Marcadores de pizarra',
+            //     educacion,
+            //     150,
+            //     [createGenericLink('https://materiales.com.bo/products/sabonis-repuesto-para-marcador-de-pizarra-sabonis-marcadores-para-pizarra', null)],
+            //     require('@/assets/images/products/TV.jpeg')
+            // ),
+            // createProduct('Libros Julio Verne', educacion, 200, [], require('@/assets/images/products/TV.jpeg')),
+            // createProduct(
+            //     'Batería Acústica',
+            //     educacion,
+            //     null,
+            //     [createDismacLink('https://www.dismac.com.bo/bateria-acustica-mapex-serie-prodigi-color-royal-blue-set-completopdg5294ftcyb.html', null)],
+            //     require('@/assets/images/products/TV.jpeg')
+            // ),
+
+
+
+
+
 
             // ——— Cocina ———
             createProduct(
@@ -387,7 +392,7 @@ export const useGarageSaleStore = defineStore("products",{
                 cocina,
                 4500,
                 [createDismacLink('https://www.dismac.com.bo/refrigerador-consul-single-door-275-litroscrc30gbdwx.html', 4799)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/cocina/consul-heladera.jpg')
             ),
             createProduct(
                 'Black+Decker Licuadora BL1300DG-CL',
@@ -397,7 +402,7 @@ export const useGarageSaleStore = defineStore("products",{
                     createGenericLink('https://mixo.com.bo/default/black-and-decker-licuadora-silenciosa-powercrush-digital-bl1300dg-pla.html', 700),
                     createUbuyLink('https://www.ubuy.com.bo/es/product/BUZIIEW-power-crush-digital-blender', 729),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/cocina/black-and-decker-blender.jpg')
             ),
             createProduct(
                 'Black+Decker Arrocera 22Cup RC5225',
@@ -407,7 +412,7 @@ export const useGarageSaleStore = defineStore("products",{
                     createGenericLink('https://mixo.com.bo/lp/black-and-decker-olla-arrocera-rc5225.html', 444),
                     createDismacLink('https://www.dismac.com.bo/arrocera-electrica-black-amp-decker-5-3-lts-700wrc5225-cl.html', 569),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/cocina/black-and-decker-rice.jpg')
             ),
             createProduct(
                 'Black+Decker Sandwichera 3en1 WM2000S-CL',
@@ -417,20 +422,20 @@ export const useGarageSaleStore = defineStore("products",{
                     createUbuyLink('https://www.ubuy.com.bo/es/product/SN1HG4-black-decker-3-in-1-morning-meal-station-waffle-maker-grill-or-sandwich-maker-black-silver-wm2000sd', 473),
                     createDismacLink('https://www.dismac.com.bo/sandwichera-black-and-decker-sm24530-cl43239.html', 489),
                 ],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/cocina/black-and-decker-sandwich.jpg')
             ),
-            createProduct('Bosch ErgoMixx', cocina, null, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Beurer Báscula de cocina', cocina, 150, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Juego de tápers de plástico', cocina, 100, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Abrelatas', cocina, 100, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Set de utensilios de cocina', cocina, 50, [], require('@/assets/images/products/TV.jpeg')),
-            createProduct('Tabla de madera pequeña', cocina, 100, [], require('@/assets/images/products/TV.jpeg')),
+            // createProduct('Bosch ErgoMixx', cocina, null, [], require('@/assets/images/products/TV.jpeg')),
+            createProduct('Beurer Báscula de cocina', cocina, 150, [], require('@/assets/images/products/cocina/beurer-vascula-cocina.jpg')),
+            createProduct('Juego de tápers de plástico', cocina, 100, [], require('@/assets/images/products/cocina/tappers-plastico.jpg')),
+            // createProduct('Abrelatas', cocina, 100, [], require('@/assets/images/products/TV.jpeg')),
+            createProduct('Set de utensilios de cocina', cocina, 100, [], require('@/assets/images/products/cocina/utencillos-cocina.jpg')),
+            createProduct('Tabla de madera pequeña', cocina, 100, [], require('@/assets/images/products/cocina/tabla-picar.jpg')),
             createProduct(
                 'Xiaomi Air Fryer 5.5L',
                 cocina,
                 1600,
                 [createGenericLink('https://nextlevel.com.bo/products/mi-smart-air-fryer-6-5-l?_pos=1&_sid=56947cb64&_ss=r', 1780)],
-                require('@/assets/images/products/TV.jpeg')
+                require('@/assets/images/products/cocina/xiaomi-air-fryer.jpg')
             ),
 
             // ——— Otros ———
