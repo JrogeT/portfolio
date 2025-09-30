@@ -9,7 +9,7 @@ const deporte = 'deporte'
 // const educacion = 'educacion'
 const cocina = 'cocina'
 const otros = 'otros'
-const herramientas = 'herramientas'
+// const herramientas = 'herramientas'
 
 const createProduct = (name, category, price, links, image) => {
     return {
@@ -175,7 +175,7 @@ export const useGarageSaleStore = defineStore("products",{
             ),
 
             // ——— Entretenimiento ———
-            createProduct('Ajedrez con reloj', entretenimiento, 250, [], require('@/assets/images/products/entretenimiento/ajedres-plus-reloj.jpg')),
+            // createProduct('Ajedrez con reloj', entretenimiento, 250, [], require('@/assets/images/products/entretenimiento/ajedres-plus-reloj.jpg')),
             createProduct('Ajedrez para viajes', entretenimiento, 50, [], require('@/assets/images/products/entretenimiento/mini-ajedrez.jpg')),
             createProduct('Juegos de mesa grandes', entretenimiento, 200, [], require('@/assets/images/products/entretenimiento/juegos-de-mesa-grandes.jpg')),
             createProduct('Juegos de mesa pequeños', entretenimiento, 100, [], require('@/assets/images/products/entretenimiento/juegos-de-mesa-peque.jpg')),
@@ -426,7 +426,7 @@ export const useGarageSaleStore = defineStore("products",{
             ),
             // createProduct('Bosch ErgoMixx', cocina, null, [], require('@/assets/images/products/TV.jpeg')),
             createProduct('Beurer Báscula de cocina', cocina, 150, [], require('@/assets/images/products/cocina/beurer-vascula-cocina.jpg')),
-            createProduct('Juego de tápers de plástico', cocina, 100, [], require('@/assets/images/products/cocina/tappers-plastico.jpg')),
+            // createProduct('Juego de tápers de plástico', cocina, 100, [], require('@/assets/images/products/cocina/tappers-plastico.jpg')),
             // createProduct('Abrelatas', cocina, 100, [], require('@/assets/images/products/TV.jpeg')),
             createProduct('Set de utensilios de cocina', cocina, 100, [], require('@/assets/images/products/cocina/utencillos-cocina.jpg')),
             createProduct('Tabla de madera pequeña', cocina, 100, [], require('@/assets/images/products/cocina/tabla-picar.jpg')),
@@ -455,34 +455,34 @@ export const useGarageSaleStore = defineStore("products",{
                 [createDismacLink('https://www.dismac.com.bo/somier-de-tela-gris-1-5-plazas-sonarepp8896.html', 899)],
                 require('@/assets/images/products/otros/somier.jpg')
             ),
-            createProduct(
-                'Velador',
-                otros,
-                400,
-                [
-                    createGenericLink('https://hauscenter.com.bo/producto/velador-isis-c-almendra-off-white', 419),
-                    createDismacLink('https://www.dismac.com.bo/velador-izzi-muebles-ceres-m3-color-adobe-x-marfilpp8942.html', 459),
-                    createMulticenterLink('https://www.multicenter.com/mesa-de-noche-2-cajones-amendoia-blanco-isis/p', 429),
-                ],
-                require('@/assets/images/products/otros/velador.jpg')
-            ),
+            // createProduct(
+            //     'Velador',
+            //     otros,
+            //     400,
+            //     [
+            //         createGenericLink('https://hauscenter.com.bo/producto/velador-isis-c-almendra-off-white', 419),
+            //         createDismacLink('https://www.dismac.com.bo/velador-izzi-muebles-ceres-m3-color-adobe-x-marfilpp8942.html', 459),
+            //         createMulticenterLink('https://www.multicenter.com/mesa-de-noche-2-cajones-amendoia-blanco-isis/p', 429),
+            //     ],
+            //     require('@/assets/images/products/otros/velador.jpg')
+            // ),
             // createProduct('Brújula Militar', otros, 100, [], require('@/assets/images/products/TV.jpeg')),
 
             // ——— Herramientas ———
-            createProduct(
-                'Atornillador Inalámbrico Tramontina 3.6V',
-                herramientas,
-                300,
-                [createDismacLink('https://www.dismac.com.bo/atornillador-inalambrico-tramontina-3-6v-maletin42380-045.html', 319)],
-                require('@/assets/images/products/herramientas/atornillador.jpg')
-            ),
-            createProduct(
-                'Taladro Bosch GSB 550RE',
-                herramientas,
-                1000,
-                [createGenericLink('https://www.hi.com.bo/taladro-con-percusion-gsb-550re-bosch.html', 1106)],
-                require('@/assets/images/products/herramientas/taladro.jpg')
-            ),
+            // createProduct(
+            //     'Atornillador Inalámbrico Tramontina 3.6V',
+            //     herramientas,
+            //     300,
+            //     [createDismacLink('https://www.dismac.com.bo/atornillador-inalambrico-tramontina-3-6v-maletin42380-045.html', 319)],
+            //     require('@/assets/images/products/herramientas/atornillador.jpg')
+            // ),
+            // createProduct(
+            //     'Taladro Bosch GSB 550RE',
+            //     herramientas,
+            //     1000,
+            //     [createGenericLink('https://www.hi.com.bo/taladro-con-percusion-gsb-550re-bosch.html', 1106)],
+            //     require('@/assets/images/products/herramientas/taladro.jpg')
+            // ),
 
         ]
     }),

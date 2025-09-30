@@ -19,7 +19,7 @@
               <option value="deporte">Deporte</option>
               <!-- <option value="educacion">Educacion</option> -->
               <option value="cocina">Cocina</option>
-              <option value="herramientas">Herramientas</option>
+<!--              <option value="herramientas">Herramientas</option>-->
               <option value="otros">Otros</option>
             </select>
           </div>
