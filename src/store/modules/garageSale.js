@@ -353,16 +353,16 @@ export const useGarageSaleStore = defineStore("products",{
             ),
             createProduct('Pelotas de padel (3)', deporte, 50, [], require('@/assets/images/products/deporte/padel-balls.jpg')),
             createProduct('Red portátil de badminton', deporte, 150, [], require('@/assets/images/products/deporte/badminton-net.jpg')),
-            createProduct(
-                'Xiaomi body composition S400',
-                deporte,
-                400,
-                [
-                    createGenericLink('https://sofmat.com.bo/productos/mi-body-composition-scale-2/', 457),
-                    createGenericLink('https://www.tecnoshoppingbolivia.com/producto/bascula-xiaomi-body-composition-scale-s400/', 415),
-                ],
-                require('@/assets/images/products/deporte/xiaomi-vascula.jpg')
-            ),
+            //createProduct(
+            //    'Xiaomi body composition S400',
+            //    deporte,
+            //    400,
+            //    [
+            //        createGenericLink('https://sofmat.com.bo/productos/mi-body-composition-scale-2/', 457),
+            //        createGenericLink('https://www.tecnoshoppingbolivia.com/producto/bascula-xiaomi-body-composition-scale-s400/', 415),
+            //    ],
+            //    require('@/assets/images/products/deporte/xiaomi-vascula.jpg')
+            //),
 
             // ——— Educación ———
             // createProduct(
@@ -404,16 +404,16 @@ export const useGarageSaleStore = defineStore("products",{
                 ],
                 require('@/assets/images/products/cocina/black-and-decker-blender.jpg')
             ),
-            createProduct(
-                'Black+Decker Arrocera 22Cup RC5225',
-                cocina,
-                400,
-                [
-                    createGenericLink('https://mixo.com.bo/lp/black-and-decker-olla-arrocera-rc5225.html', 444),
-                    createDismacLink('https://www.dismac.com.bo/arrocera-electrica-black-amp-decker-5-3-lts-700wrc5225-cl.html', 569),
-                ],
-                require('@/assets/images/products/cocina/black-and-decker-rice.jpg')
-            ),
+            //createProduct(
+            //    'Black+Decker Arrocera 22Cup RC5225',
+            //    cocina,
+            //    400,
+            //    [
+            //        createGenericLink('https://mixo.com.bo/lp/black-and-decker-olla-arrocera-rc5225.html', 444),
+            //        createDismacLink('https://www.dismac.com.bo/arrocera-electrica-black-amp-decker-5-3-lts-700wrc5225-cl.html', 569),
+            //    ],
+            //    require('@/assets/images/products/cocina/black-and-decker-rice.jpg')
+            //),
             createProduct(
                 'Black+Decker Sandwichera 3en1 WM2000S-CL',
                 cocina,
