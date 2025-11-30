@@ -9,6 +9,8 @@
         </h3>
         <p>
           Hello There, I'm Jorge - Programmer - Squash Player - Trader - Investor
+        </p>
+        <p>
           Living in Paraguay, open to any remote position.
         </p>
         <p>
@@ -20,7 +22,7 @@
           </strong>
         </h3>
         <p>
-          I'm a fullstack web developer, self-taught developer and I'm always looking for new challenges to learn new technologies.
+          I'm a fullstack web developer, self-taught developer and looking for new challenges to learn new technologies.
         </p>
         <p>
           Always searching to apply good practices and couching/mentoring
