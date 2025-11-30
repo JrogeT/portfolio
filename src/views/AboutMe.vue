@@ -8,7 +8,8 @@
           </strong>
         </h3>
         <p>
-          Hello There, I'm Jorge - Bolivian - 26 years old
+          Hello There, I'm Jorge - Programmer - Squash Player - Trader - Investor
+          Living in Paraguay, open to any remote position.
         </p>
         <p>
           Aura, Akira, Flor, Tita and Sasha are my cats, they are so cute, I love them.
@@ -22,33 +23,19 @@
           I'm a fullstack web developer, self-taught developer and I'm always looking for new challenges to learn new technologies.
         </p>
         <p>
-          Always searching to apply good practices; pair programming lover.
+          Always searching to apply good practices and couching/mentoring
         </p>
         <p>
-          On the way to be a Senior Full-Stack Web Developer / Project Manager.
+          On the way to be a Project Manager / Team Lead
         </p>
         <h3>
           <strong>
-            Teaching
+            More about me
           </strong>
         </h3>
         <p>
-          Programming teacher at university on free times.
+          Big fan of sports, my whole life is based of taking care of my body.
         </p>
-        <p>
-          From the basics of programming to data structures, compilers, web development, even assembly language!
-        </p>
-        <h3>
-          <strong>
-            Hobbies
-          </strong>
-        </h3>
-        <p>
-          I'm a big fan of sports, my whole weekends are spent playing wallyball, cycling, squash and any other!
-        </p>
-<!--        <p>-->
-<!--          I'm in a Volleyball Team called 'Molten De La Sierra' where I'm challenged to get better everyday.-->
-<!--        </p>-->
         <p>
           Rubik's cube is my favorite puzzle game, I also play chess online.
         </p>
