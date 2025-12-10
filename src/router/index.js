@@ -33,11 +33,11 @@ const routes = [
         name: "ContactMe",
         component: ContactMe,
     },
-    {
-        path: "/cv",
-        name: "CV",
-        component: Cv,
-    },
+    // {
+    //     path: "/cv",
+    //     name: "CV",
+    //     component: Cv,
+    // },
     {
         path: "/social-networks",
         name: "SocialNetworks",
