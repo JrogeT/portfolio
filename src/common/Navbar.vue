@@ -42,10 +42,10 @@ export default {
           name: "Contact me",
           url: "/contact-me"
         },
-        {
-          name: "CV",
-          url: "/cv"
-        },
+        //{
+        //  name: "CV",
+        //  url: "/cv"
+        //},
         {
           name: "Garage Sale",
           url: "/garage-sale"
