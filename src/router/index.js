@@ -5,7 +5,7 @@ import ContactMe from "@/views/ContactMe";
 import Cv from "@/views/Cv";
 import SocialNetworks from "@/views/SocialNetworks";
 import Projects from "@/views/Projects.vue";
-import GarageSale from "@/views/GarageSale.vue";
+// import GarageSale from "@/views/GarageSale.vue";
 
 const routes = [
     {
