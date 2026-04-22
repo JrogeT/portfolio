@@ -33,21 +33,21 @@ const routes = [
         name: "ContactMe",
         component: ContactMe,
     },
-    // {
-    //     path: "/cv",
-    //     name: "CV",
-    //     component: Cv,
-    // },
+    {
+        path: "/cv",
+        name: "CV",
+        component: Cv,
+    },
     {
         path: "/social-networks",
         name: "SocialNetworks",
         component: SocialNetworks,
     },
-    {
-        path: "/garage-sale",
-        name: "GarageSale",
-        component: GarageSale,
-    }
+    //{
+    //    path: "/garage-sale",
+    //    name: "GarageSale",
+    //    component: GarageSale,
+    //}
 ];
 
 const router = createRouter({
